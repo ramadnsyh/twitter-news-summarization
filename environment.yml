@@ -1,0 +1,16 @@
+name: tweet_summarization
+
+channels:
+- conda-forge
+- anaconda 
+
+dependencies:
+- python==3.7.6
+- pip==19.3.1
+- beautifulsoup4
+- requests-oauthlib
+- gensim
+- requests
+
+- pip:
+  - python-dotenv
